@@ -1,8 +1,8 @@
 cask "equipe" do
-  version "0.103.62"
-  sha256 "d388251db2437d675829887f16be2d62a48543a1b1a123e517a486e2f7a4cd8c"
+  version "0.103.63"
+  sha256 "095031ee8853dec3b7179979bd4ee4e6d4e738abbdaf929f09cbedf12ad9b04d"
 
-  url "https://github.com/equipe-labs/equipe/releases/download/v0.103.62/equipe.dmg"
+  url "https://github.com/equipe-labs/equipe/releases/download/v0.103.63/equipe.dmg"
   name "equipe"
   desc "Desktop app for a squad of AI agents on your own Claude Code and Codex plans"
   homepage "https://equipe.im"
