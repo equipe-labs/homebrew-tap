@@ -1,11 +1,11 @@
 cask "equipe" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.103.126"
-  sha256 arm:   "b569ced91ed63c42f5be4747b8322f729c6c4503e76282b8f6f4c21d1c794a84",
-         intel: "984c92dff8eb4c141fff11aca7ef3b9dfa3c4244896f828ab7b7d7a76f11e167"
+  version "0.103.127"
+  sha256 arm:   "968f9f00ec5a1180da151e15d5489269536424fb32fd087a721d79a89a44e4d5",
+         intel: "4775795695dd15e571b4bb3e2846d6345c3eeb4c7f72b29e9863da5827cc291d"
 
-  url "https://github.com/equipe-labs/equipe/releases/download/v0.103.126/equipe-#{arch}.dmg"
+  url "https://github.com/equipe-labs/equipe/releases/download/v0.103.127/equipe-#{arch}.dmg"
   name "equipe"
   desc "Desktop app for a squad of AI agents on your own Claude Code and Codex plans"
   homepage "https://equipe.im"
