@@ -1,28 +1,28 @@
 class Equipe < Formula
   desc "Full software squad of AI agents, on your own Claude Code and Codex plans"
   homepage "https://equipe.im"
-  version "0.103.198"
+  version "0.103.201"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/equipe-labs/equipe/releases/download/v0.103.198/equipe-aarch64-apple-darwin.tar.gz"
-      sha256 "e30a92ab7b1f70b7a432594f936f45a8ee4ba6d52c45389991bde812aa00a472"
+      url "https://github.com/equipe-labs/equipe/releases/download/v0.103.201/equipe-aarch64-apple-darwin.tar.gz"
+      sha256 "d5daf44be3ae08cadd79dc9d5044a098f3156b0cd4257c363d566cf559d826e8"
     end
     on_intel do
-      url "https://github.com/equipe-labs/equipe/releases/download/v0.103.198/equipe-x86_64-apple-darwin.tar.gz"
-      sha256 "09431e8f856b6bd9752f0f983a350961586dbbe9714ef103113149fb3cf49fdc"
+      url "https://github.com/equipe-labs/equipe/releases/download/v0.103.201/equipe-x86_64-apple-darwin.tar.gz"
+      sha256 "7a73741ea63cc4b354eff2482572889c280220dc0d4fd61d33a1df9c5b4b9e18"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/equipe-labs/equipe/releases/download/v0.103.198/equipe-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ddd50aabca34c3117a36818ce4db98db4d251d278d1773bc749301182b9c77e4"
+      url "https://github.com/equipe-labs/equipe/releases/download/v0.103.201/equipe-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "98e402daace2aa9c4200342f73a07033728bfe999ea191afaafbe86ff214149f"
     end
     on_intel do
-      url "https://github.com/equipe-labs/equipe/releases/download/v0.103.198/equipe-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "b3fb3d4e88e6117bb5464e4522fb12f17ca615746d5e0441778c3c24f22cfba5"
+      url "https://github.com/equipe-labs/equipe/releases/download/v0.103.201/equipe-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ec5030199a2a4b02402c6df34aad26fb8151291069d0705d8397292e97b7734f"
     end
   end
 
